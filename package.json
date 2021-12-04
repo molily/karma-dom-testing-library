@@ -1,0 +1,23 @@
+{
+  "name": "karma-dom-testing-library",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "karma": "karma start karma.conf.js"
+  },
+  "author": "Mathias Schäfer <molily@mailbox.org> (https://molily.de)",
+  "license": "Unlicense",
+  "devDependencies": {
+    "@testing-library/dom": "^8.11.1",
+    "@testing-library/preact": "^2.0.1",
+    "@types/jasmine": "^3.10.2",
+    "jasmine-core": "^3.10.1",
+    "jasmine-spec-reporter": "^7.0.0",
+    "karma": "^6.3.9",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-esbuild": "^2.2.0",
+    "karma-jasmine": "^4.0.1",
+    "karma-jasmine-html-reporter": "^1.7.0",
+    "preact": "^10.6.2"
+  }
+}
