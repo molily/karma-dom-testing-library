@@ -10,6 +10,6 @@ describe('Component', () => {
     const component = new Component(container);
     component.render();
 
-    expect(getByText(container, 'Component works!').textContent).toBe('Component works!')
+    expect(getByText(container, 'Component works!')).toBeTruthy();
   });
 });
